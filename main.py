@@ -1,16 +1,9 @@
-# This is a sample Python script.
+# 1.	Дан список. Выведите те его элементы, которые встречаются в списке только один раз.
+# Элементы нужно выводить в том порядке, в котором они встречаются в списке.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+sp = [1, 2, 5, 2, 4, 1, 2]
+ran = range(0, len(sp))
+sp = list(ran)
+for i in range(sp):
+    if list[i] != list[i + 1:len(list)]:
+        print(i)
