@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hw7_phonebook/Phonebook" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/мусор/Phonebook" vcs="Git" />
   </component>
 </project>

@@ -28,9 +28,9 @@
 # 3.	Задайте последовательность чисел.
 # Напишите программу, которая выведет список неповторяющихся элементов исходной последовательности.
 
-# sp = [1, 2, 3, 4, 5, 3, 2]
-# print(sp)
-# new_sp = []
-# new_sp = list(filter(lambda x: sp.count(x) == 1, sp))
-# print(new_sp)
+sp = [1, 2, 3, 4, 5, 3, 2]
+print(sp)
+new_sp = []
+new_sp = list(filter(lambda x: sp.count(x) == 1, sp))
+print(new_sp)
 

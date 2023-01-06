@@ -32,6 +32,12 @@
 # [new_sp.append(i) for i in sp if i not in new_sp]
 # print(f"Список из неповторяющихся элементов: {new_sp}")
 
+# sp = [1, 2, 3, 4, 5, 3, 2]
+# print(sp)
+# new_sp = []
+# new_sp = list(filter(lambda x: sp.count(x) == 1, sp))
+# print(new_sp)
+
 
 # 4.	Задана натуральная степень k. Сформировать случайным образом
 # список коэффициентов (значения от 0 до 100) многочлена и записать
@@ -79,22 +85,22 @@
 # 5.	Даны два файла, в каждом из которых находится запись многочлена.
 # Задача - сформировать файл, содержащий сумму многочленов.
 
-with open('hw4_task5_1.txt', 'w', encoding='utf-8') as file:
-    file.write('2*x^2 + 5*x^5')
-with open('hw4_task5_2.txt', 'w', encoding='utf-8') as file:
-    file.write('23*x^4 + 9*x^6')
-
-with open('hw4_task5_1.txt','r') as file:
-    poly_1 = file.readline()
-    list_of_poly_1 = poly_1.split()
-
-
-with open('hw4_task5_2.txt','r') as file:
-    poly_2 = file.readline()
-    list_of_poly_2 = poly_2.split()
-
-print(f'{list_of_poly_1} + {list_of_poly_2}')
-sum_poly = list_of_poly_1 + list_of_poly_2
-
-with open('hw4_task5_sum.txt', 'w', encoding='utf-8') as file:
-    file.write(f'{list_of_poly_1} + {list_of_poly_2}')
+# with open('hw4_task5_1.txt', 'w', encoding='utf-8') as file:
+#     file.write('2*x^2 + 5*x^5')
+# with open('hw4_task5_2.txt', 'w', encoding='utf-8') as file:
+#     file.write('23*x^4 + 9*x^6')
+#
+# with open('hw4_task5_1.txt','r') as file:
+#     poly_1 = file.readline()
+#     list_of_poly_1 = poly_1.split()
+#
+#
+# with open('hw4_task5_2.txt','r') as file:
+#     poly_2 = file.readline()
+#     list_of_poly_2 = poly_2.split()
+#
+# print(f'{list_of_poly_1} + {list_of_poly_2}')
+# sum_poly = list_of_poly_1 + list_of_poly_2
+#
+# with open('hw4_task5_sum.txt', 'w', encoding='utf-8') as file:
+#     file.write(f'{list_of_poly_1} + {list_of_poly_2}')
